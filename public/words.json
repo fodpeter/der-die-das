@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "word": "Heimat",
+      "article": "die"
+    },
+    {
+      "word": "Flugzeug",
+      "article": "das"
+    },
+    {
+      "word": "Junge",
+      "article": "der"
+    },
+    {
+      "word": "Unterkunft",
+      "article": "die"
+    }
+  ]
+}

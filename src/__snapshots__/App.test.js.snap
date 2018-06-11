@@ -21,25 +21,16 @@ ShallowWrapper {
         <header
           className="App-header"
 >
-          <img
-                    alt="logo"
-                    className="App-logo"
-                    src="logo.svg"
-          />
           <h1
                     className="App-title"
           >
-                    Welcome to React
+                    Welcome to Der Die Das
           </h1>
 </header>,
         <p
           className="App-intro"
 >
-          To get started, edit 
-          <code>
-                    src/App.js
-          </code>
-           and save to reload.
+          <Connect(WordsContainer) />
 </p>,
       ],
       "className": "App",
@@ -51,48 +42,26 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <img
-              alt="logo"
-              className="App-logo"
-              src="logo.svg"
-/>,
-            <h1
-              className="App-title"
+          "children": <h1
+            className="App-title"
 >
-              Welcome to React
+            Welcome to Der Die Das
 </h1>,
-          ],
           "className": "App-header",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "logo",
-              "className": "App-logo",
-              "src": "logo.svg",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to Der Die Das",
+            "className": "App-title",
           },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Welcome to React",
-              "className": "App-title",
-            },
-            "ref": null,
-            "rendered": "Welcome to React",
-            "type": "h1",
-          },
-        ],
+          "ref": null,
+          "rendered": "Welcome to Der Die Das",
+          "type": "h1",
+        },
         "type": "header",
       },
       Object {
@@ -100,31 +69,19 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            "To get started, edit ",
-            <code>
-              src/App.js
-</code>,
-            " and save to reload.",
-          ],
+          "children": <Connect(WordsContainer) />,
           "className": "App-intro",
         },
         "ref": null,
-        "rendered": Array [
-          "To get started, edit ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "src/App.js",
-            },
-            "ref": null,
-            "rendered": "src/App.js",
-            "type": "code",
-          },
-          " and save to reload.",
-        ],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         "type": "p",
       },
     ],
@@ -140,25 +97,16 @@ ShallowWrapper {
           <header
             className="App-header"
 >
-            <img
-                        alt="logo"
-                        className="App-logo"
-                        src="logo.svg"
-            />
             <h1
                         className="App-title"
             >
-                        Welcome to React
+                        Welcome to Der Die Das
             </h1>
 </header>,
           <p
             className="App-intro"
 >
-            To get started, edit 
-            <code>
-                        src/App.js
-            </code>
-             and save to reload.
+            <Connect(WordsContainer) />
 </p>,
         ],
         "className": "App",
@@ -170,48 +118,26 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <img
-                alt="logo"
-                className="App-logo"
-                src="logo.svg"
-/>,
-              <h1
-                className="App-title"
+            "children": <h1
+              className="App-title"
 >
-                Welcome to React
+              Welcome to Der Die Das
 </h1>,
-            ],
             "className": "App-header",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "logo",
-                "className": "App-logo",
-                "src": "logo.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Welcome to Der Die Das",
+              "className": "App-title",
             },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Welcome to React",
-                "className": "App-title",
-              },
-              "ref": null,
-              "rendered": "Welcome to React",
-              "type": "h1",
-            },
-          ],
+            "ref": null,
+            "rendered": "Welcome to Der Die Das",
+            "type": "h1",
+          },
           "type": "header",
         },
         Object {
@@ -219,31 +145,19 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              "To get started, edit ",
-              <code>
-                src/App.js
-</code>,
-              " and save to reload.",
-            ],
+            "children": <Connect(WordsContainer) />,
             "className": "App-intro",
           },
           "ref": null,
-          "rendered": Array [
-            "To get started, edit ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "src/App.js",
-              },
-              "ref": null,
-              "rendered": "src/App.js",
-              "type": "code",
-            },
-            " and save to reload.",
-          ],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
           "type": "p",
         },
       ],
