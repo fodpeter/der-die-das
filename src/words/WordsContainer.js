@@ -1,7 +1,8 @@
-import { PureComponent } from "react";
+import React, { PureComponent } from "react";
 import { connect } from "react-redux";
 import { loadData } from "./actions";
 import { LOADING_STATE } from "../actionTypes";
+import ShowWord from "./ShowWord";
 
 class WordsContainer extends PureComponent {
   componentDidMount() {
@@ -16,7 +17,7 @@ class WordsContainer extends PureComponent {
     if (loadingState === LOADING_STATE.FAILED) {
       return "Loading failed";
     }
-    return null;
+    return <ShowWord word="Heimat" />;
   }
 }
 

@@ -1,0 +1,14 @@
+.ShowWord {
+  display: flex;
+  flex-direction: column;
+}
+
+.ShowWord .Buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ShowWord .Buttons button {
+  padding: 1em 2em;
+  border-radius: 1em;
+}
