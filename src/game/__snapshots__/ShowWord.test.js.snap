@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ShowWord
+    answers={Object {}}
     word="Wort"
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -133,7 +134,7 @@ ShallowWrapper {
         "rendered": Array [
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "der",
             "nodeType": "class",
             "props": Object {
               "active": false,
@@ -151,7 +152,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "die",
             "nodeType": "class",
             "props": Object {
               "active": false,
@@ -169,7 +170,7 @@ ShallowWrapper {
           },
           Object {
             "instance": null,
-            "key": undefined,
+            "key": "das",
             "nodeType": "class",
             "props": Object {
               "active": false,
@@ -311,7 +312,7 @@ ShallowWrapper {
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "der",
               "nodeType": "class",
               "props": Object {
                 "active": false,
@@ -329,7 +330,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "die",
               "nodeType": "class",
               "props": Object {
                 "active": false,
@@ -347,7 +348,7 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "das",
               "nodeType": "class",
               "props": Object {
                 "active": false,

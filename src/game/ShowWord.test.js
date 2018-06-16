@@ -3,6 +3,6 @@ import { shallow } from "enzyme";
 import ShowWord from "./ShowWord";
 
 it("renders without crashing", () => {
-  const component = shallow(<ShowWord word="Wort" />);
+  const component = shallow(<ShowWord word="Wort" answers={{}} />);
   expect(component).toMatchSnapshot();
 });
