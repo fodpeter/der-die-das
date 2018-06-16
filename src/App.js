@@ -7,9 +7,9 @@ const App = () => (
     <header className="App-header">
       <h1 className="App-title">Welcome to Der Die Das</h1>
     </header>
-    <p className="App-intro">
+    <div className="App-intro">
       <Words />
-    </p>
+    </div>
   </div>
 );
 
