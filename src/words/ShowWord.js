@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, ButtonGroup } from "react-bootstrap";
+import Button from "react-bootstrap/lib/Button";
+import ButtonGroup from "react-bootstrap/lib/ButtonGroup";
 import "./ShowWord.css";
 
 const ShowWord = ({ word, onSelect }) => (

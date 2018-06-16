@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ShowWord
+    word="Wort"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="Word"
+>
+          Wort
+</div>,
+        <ButtonGroup
+          block={false}
+          bsClass="btn-group"
+          className="Buttons"
+          justified={false}
+          vertical={false}
+>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsSize="large"
+                    bsStyle="default"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    der
+          </Button>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsSize="large"
+                    bsStyle="default"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    die
+          </Button>
+          <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsSize="large"
+                    bsStyle="default"
+                    disabled={false}
+                    onClick={[Function]}
+          >
+                    das
+          </Button>
+</ButtonGroup>,
+      ],
+      "className": "ShowWord",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Wort",
+          "className": "Word",
+        },
+        "ref": null,
+        "rendered": "Wort",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "block": false,
+          "bsClass": "btn-group",
+          "children": Array [
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsSize="large"
+              bsStyle="default"
+              disabled={false}
+              onClick={[Function]}
+>
+              der
+</Button>,
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsSize="large"
+              bsStyle="default"
+              disabled={false}
+              onClick={[Function]}
+>
+              die
+</Button>,
+            <Button
+              active={false}
+              block={false}
+              bsClass="btn"
+              bsSize="large"
+              bsStyle="default"
+              disabled={false}
+              onClick={[Function]}
+>
+              das
+</Button>,
+          ],
+          "className": "Buttons",
+          "justified": false,
+          "vertical": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "block": false,
+              "bsClass": "btn",
+              "bsSize": "large",
+              "bsStyle": "default",
+              "children": "der",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "der",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "block": false,
+              "bsClass": "btn",
+              "bsSize": "large",
+              "bsStyle": "default",
+              "children": "die",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "die",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "block": false,
+              "bsClass": "btn",
+              "bsSize": "large",
+              "bsStyle": "default",
+              "children": "das",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "das",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="Word"
+>
+            Wort
+</div>,
+          <ButtonGroup
+            block={false}
+            bsClass="btn-group"
+            className="Buttons"
+            justified={false}
+            vertical={false}
+>
+            <Button
+                        active={false}
+                        block={false}
+                        bsClass="btn"
+                        bsSize="large"
+                        bsStyle="default"
+                        disabled={false}
+                        onClick={[Function]}
+            >
+                        der
+            </Button>
+            <Button
+                        active={false}
+                        block={false}
+                        bsClass="btn"
+                        bsSize="large"
+                        bsStyle="default"
+                        disabled={false}
+                        onClick={[Function]}
+            >
+                        die
+            </Button>
+            <Button
+                        active={false}
+                        block={false}
+                        bsClass="btn"
+                        bsSize="large"
+                        bsStyle="default"
+                        disabled={false}
+                        onClick={[Function]}
+            >
+                        das
+            </Button>
+</ButtonGroup>,
+        ],
+        "className": "ShowWord",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Wort",
+            "className": "Word",
+          },
+          "ref": null,
+          "rendered": "Wort",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "block": false,
+            "bsClass": "btn-group",
+            "children": Array [
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsSize="large"
+                bsStyle="default"
+                disabled={false}
+                onClick={[Function]}
+>
+                der
+</Button>,
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsSize="large"
+                bsStyle="default"
+                disabled={false}
+                onClick={[Function]}
+>
+                die
+</Button>,
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsSize="large"
+                bsStyle="default"
+                disabled={false}
+                onClick={[Function]}
+>
+                das
+</Button>,
+            ],
+            "className": "Buttons",
+            "justified": false,
+            "vertical": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsSize": "large",
+                "bsStyle": "default",
+                "children": "der",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "der",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsSize": "large",
+                "bsStyle": "default",
+                "children": "die",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "die",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsSize": "large",
+                "bsStyle": "default",
+                "children": "das",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "das",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
