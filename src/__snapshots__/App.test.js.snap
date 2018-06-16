@@ -27,11 +27,11 @@ ShallowWrapper {
                     Welcome to Der Die Das
           </h1>
 </header>,
-        <p
+        <div
           className="App-intro"
 >
           <Connect(WordsContainer) />
-</p>,
+</div>,
       ],
       "className": "App",
     },
@@ -82,7 +82,7 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        "type": "p",
+        "type": "div",
       },
     ],
     "type": "div",
@@ -103,11 +103,11 @@ ShallowWrapper {
                         Welcome to Der Die Das
             </h1>
 </header>,
-          <p
+          <div
             className="App-intro"
 >
             <Connect(WordsContainer) />
-</p>,
+</div>,
         ],
         "className": "App",
       },
@@ -158,7 +158,7 @@ ShallowWrapper {
             "rendered": null,
             "type": [Function],
           },
-          "type": "p",
+          "type": "div",
         },
       ],
       "type": "div",
