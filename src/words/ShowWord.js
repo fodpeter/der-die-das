@@ -1,14 +1,21 @@
 import React from "react";
+import { Button, ButtonGroup } from "react-bootstrap";
 import "./ShowWord.css";
 
 const ShowWord = ({ word, onSelect }) => (
   <div className="ShowWord">
     <div className="Word">{word}</div>
-    <div className="Buttons">
-      <button onClick={() => onSelect("der")}>der</button>
-      <button onClick={() => onSelect("die")}>die</button>
-      <button onClick={() => onSelect("das")}>das</button>
-    </div>
+    <ButtonGroup className="Buttons">
+      <Button bsSize="large" onClick={() => onSelect("die")}>
+        die
+      </Button>
+      <Button bsSize="large" onClick={() => onSelect("der")}>
+        der
+      </Button>
+      <Button bsSize="large" onClick={() => onSelect("das")}>
+        das
+      </Button>
+    </ButtonGroup>
   </div>
 );
 
