@@ -1,4 +1,4 @@
-import { WORDS } from "../actionTypes";
+import { GAME, WORDS } from "../actionTypes";
 
 export const loadData = () => dispatch => {
   dispatch({ type: WORDS.LOAD_REQUEST });
@@ -14,3 +14,10 @@ export const loadData = () => dispatch => {
     })
     .catch(error => dispatch({ type: WORDS.LOAD_FAILED, error }));
 };
+
+export const startGame = () => ({ type: GAME.START });
+
+export const guess = article => ({ type: GAME.GUESS, article });
+export const guessSuccess = article => ({ type: GAME.GUESS_SUCCESS, article });
+export const guessFailed = article => ({ type: GAME.GUESS_FAILED, article });
+export const gotoNextWord = () => ({ type: GAME.GOTO_NEXT_WORD });

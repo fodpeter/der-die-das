@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Words from "./words";
+import Game from "./game";
 
 const App = () => (
   <div className="App">
@@ -8,7 +8,7 @@ const App = () => (
       <h1 className="App-title">Welcome to Der Die Das</h1>
     </header>
     <div className="App-intro">
-      <Words />
+      <Game />
     </div>
   </div>
 );
