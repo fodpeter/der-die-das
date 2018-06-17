@@ -2,6 +2,7 @@
   "name": "der-die-das",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fodpeter.github.io/der-die-das",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
