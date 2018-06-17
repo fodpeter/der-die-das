@@ -3,6 +3,7 @@ import Button from "react-bootstrap/lib/Button";
 import ButtonGroup from "react-bootstrap/lib/ButtonGroup";
 import "./ShowWord.css";
 import { ANSWERS } from "./constants";
+import classnames from "classnames";
 
 const articles = ["der", "die", "das"];
 
@@ -29,10 +30,15 @@ class ShowWord extends PureComponent {
   };
 
   render() {
-    const { word } = this.props;
+    const {
+      word: { article, word },
+      frozen
+    } = this.props;
     return (
       <div className="ShowWord">
-        <div className="Word">{word}</div>
+        <div className={classnames("Word", { "text-success": frozen })}>
+          <span className="WordArticle">{frozen ? article : "..."}</span> {word}
+        </div>
         <ButtonGroup className="Buttons">
           {articles.map(article => this.renderButton(article))}
         </ButtonGroup>

@@ -37,7 +37,7 @@ class WordsContainer extends PureComponent {
 const mapStateToProps = state => ({
   started: state.getIn(["game", "started"], false),
   loadingState: state.getIn(["words", "loadingState"]),
-  word: getWord(state).get("word"),
+  word: getWord(state).toJS(),
   answers: state.getIn(["game", "answers"], Map()).toJS(),
   frozen: state.getIn(["game", "frozen"])
 });
