@@ -9,8 +9,8 @@ script:
   - npm test
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable 
+  skip_cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
   verbose: true
   on:
     branch: master
