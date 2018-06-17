@@ -6,7 +6,9 @@ cache:
     - node_modules
 script:
   - npm run build
+  - ls -al
   - npm test
+  - ls -al
 deploy:
   provider: pages
   skip_cleanup: true
