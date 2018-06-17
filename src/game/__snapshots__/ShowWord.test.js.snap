@@ -24,7 +24,12 @@ ShallowWrapper {
         <div
           className="Word"
 >
-          Wort
+          <span
+                    className="WordArticle"
+          >
+                    ...
+          </span>
+           
 </div>,
         <ButtonGroup
           block={false}
@@ -77,11 +82,34 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Wort",
+          "children": Array [
+            <span
+              className="WordArticle"
+>
+              ...
+</span>,
+            " ",
+            undefined,
+          ],
           "className": "Word",
         },
         "ref": null,
-        "rendered": "Wort",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "...",
+              "className": "WordArticle",
+            },
+            "ref": null,
+            "rendered": "...",
+            "type": "span",
+          },
+          " ",
+          undefined,
+        ],
         "type": "div",
       },
       Object {
@@ -202,7 +230,12 @@ ShallowWrapper {
           <div
             className="Word"
 >
-            Wort
+            <span
+                        className="WordArticle"
+            >
+                        ...
+            </span>
+             
 </div>,
           <ButtonGroup
             block={false}
@@ -255,11 +288,34 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Wort",
+            "children": Array [
+              <span
+                className="WordArticle"
+>
+                ...
+</span>,
+              " ",
+              undefined,
+            ],
             "className": "Word",
           },
           "ref": null,
-          "rendered": "Wort",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "...",
+                "className": "WordArticle",
+              },
+              "ref": null,
+              "rendered": "...",
+              "type": "span",
+            },
+            " ",
+            undefined,
+          ],
           "type": "div",
         },
         Object {
