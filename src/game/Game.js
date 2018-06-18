@@ -12,14 +12,16 @@ const ShowWord = ({ loadingState, startGame }) => (
     {loadingState === LOADING_STATE.FAILED && (
       <Label bsStyle="danger">Loading failed</Label>
     )}
-    <Button
-      block
-      bsSize="large"
-      onClick={startGame}
-      disabled={loadingState !== LOADING_STATE.READY}
-    >
-      Start
-    </Button>
+    <div>
+      <Button
+        block
+        bsSize="large"
+        onClick={startGame}
+        disabled={loadingState !== LOADING_STATE.READY}
+      >
+        Start
+      </Button>
+    </div>
   </div>
 );
 
