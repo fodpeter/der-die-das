@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import PropTypes from "prop-types";
 import Button from "react-bootstrap/lib/Button";
 import ButtonGroup from "react-bootstrap/lib/ButtonGroup";
 import "./ShowWord.css";
@@ -46,5 +47,19 @@ class ShowWord extends PureComponent {
     );
   }
 }
+
+ShowWord.propTypes = {
+  answers: PropTypes.object.isRequired,
+  frozen: PropTypes.bool.isRequired,
+  onSelect: PropTypes.func.isRequired,
+  word: PropTypes.shape({
+    article: PropTypes.string,
+    word: PropTypes.number
+  })
+};
+
+ShowWord.defaultProps = {
+  word: {}
+};
 
 export default ShowWord;

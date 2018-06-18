@@ -30,7 +30,7 @@ ShallowWrapper {
         <div
           className="App-intro"
 >
-          <Connect(WordsContainer) />
+          <Connect(GameContainer) />
 </div>,
       ],
       "className": "App",
@@ -69,7 +69,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(WordsContainer) />,
+          "children": <Connect(GameContainer) />,
           "className": "App-intro",
         },
         "ref": null,
@@ -106,7 +106,7 @@ ShallowWrapper {
           <div
             className="App-intro"
 >
-            <Connect(WordsContainer) />
+            <Connect(GameContainer) />
 </div>,
         ],
         "className": "App",
@@ -145,7 +145,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(WordsContainer) />,
+            "children": <Connect(GameContainer) />,
             "className": "App-intro",
           },
           "ref": null,
