@@ -6,7 +6,7 @@ import { LOADING_STATE } from "../actionTypes";
 import "./Game.css";
 
 const Game = ({ loadingState, startGame }) => (
-  <div className="Game">
+  <div className="game">
     {loadingState === LOADING_STATE.LOADING && (
       <Label bsStyle="info">Loading...</Label>
     )}

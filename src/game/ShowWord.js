@@ -36,11 +36,12 @@ class ShowWord extends PureComponent {
       frozen
     } = this.props;
     return (
-      <div className="ShowWord">
-        <div className={classnames("Word", { "text-success": frozen })}>
-          <span className="WordArticle">{frozen ? article : "..."}</span> {word}
+      <div className="show-word">
+        <div className={classnames("word", { "text-success": frozen })}>
+          <span className="word-article">{frozen ? article : "..."}</span>{" "}
+          {word}
         </div>
-        <ButtonGroup className="Buttons">
+        <ButtonGroup className="buttons">
           {articles.map(article => this.renderButton(article))}
         </ButtonGroup>
       </div>

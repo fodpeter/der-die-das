@@ -1,17 +1,17 @@
-.ShowWord {
+.show-word {
   display: flex;
   flex-direction: column;
 
-  .Word {
+  .word {
     padding: 2em;
   }
 
-  .WordArticle {
-    width: 3ch;
+  .word-article {
     display: inline-block;
+    width: 3ch;
   }
 
-  .Buttons {
+  .buttons {
     margin: 0 auto;
   }
 }
