@@ -23,6 +23,9 @@ const Game = ({ loadingState, startGame }) => (
         Start
       </Button>
     </div>
+    <a href="http://www.passion4teq.com/articles/der-die-das-genus-regeln/">
+      Der die das article rules
+    </a>
   </div>
 );
 
