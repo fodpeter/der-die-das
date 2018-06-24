@@ -19,21 +19,21 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <header
-          className="App-header"
+          className="app-header"
 >
           <h1
-                    className="App-title"
+                    className="app-title"
           >
                     Welcome to Der Die Das
           </h1>
 </header>,
         <div
-          className="App-intro"
+          className="app-intro"
 >
           <Connect(GameContainer) />
 </div>,
       ],
-      "className": "App",
+      "className": "app",
     },
     "ref": null,
     "rendered": Array [
@@ -43,11 +43,11 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <h1
-            className="App-title"
+            className="app-title"
 >
             Welcome to Der Die Das
 </h1>,
-          "className": "App-header",
+          "className": "app-header",
         },
         "ref": null,
         "rendered": Object {
@@ -56,7 +56,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Welcome to Der Die Das",
-            "className": "App-title",
+            "className": "app-title",
           },
           "ref": null,
           "rendered": "Welcome to Der Die Das",
@@ -70,7 +70,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <Connect(GameContainer) />,
-          "className": "App-intro",
+          "className": "app-intro",
         },
         "ref": null,
         "rendered": Object {
@@ -95,21 +95,21 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <header
-            className="App-header"
+            className="app-header"
 >
             <h1
-                        className="App-title"
+                        className="app-title"
             >
                         Welcome to Der Die Das
             </h1>
 </header>,
           <div
-            className="App-intro"
+            className="app-intro"
 >
             <Connect(GameContainer) />
 </div>,
         ],
-        "className": "App",
+        "className": "app",
       },
       "ref": null,
       "rendered": Array [
@@ -119,11 +119,11 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <h1
-              className="App-title"
+              className="app-title"
 >
               Welcome to Der Die Das
 </h1>,
-            "className": "App-header",
+            "className": "app-header",
           },
           "ref": null,
           "rendered": Object {
@@ -132,7 +132,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "Welcome to Der Die Das",
-              "className": "App-title",
+              "className": "app-title",
             },
             "ref": null,
             "rendered": "Welcome to Der Die Das",
@@ -146,7 +146,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": <Connect(GameContainer) />,
-            "className": "App-intro",
+            "className": "app-intro",
           },
           "ref": null,
           "rendered": Object {

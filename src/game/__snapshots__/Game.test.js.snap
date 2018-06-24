@@ -35,8 +35,15 @@ ShallowWrapper {
                     Start
           </Button>
 </div>,
+        <a
+          href="http://www.passion4teq.com/articles/der-die-das-genus-regeln/"
+          rel="noopener noreferrer"
+          target="_blank"
+>
+          Der die das article rules
+</a>,
       ],
-      "className": "Game",
+      "className": "game",
     },
     "ref": null,
     "rendered": Array [
@@ -80,6 +87,20 @@ ShallowWrapper {
         },
         "type": "div",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Der die das article rules",
+          "href": "http://www.passion4teq.com/articles/der-die-das-genus-regeln/",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": "Der die das article rules",
+        "type": "a",
+      },
     ],
     "type": "div",
   },
@@ -105,8 +126,15 @@ ShallowWrapper {
                         Start
             </Button>
 </div>,
+          <a
+            href="http://www.passion4teq.com/articles/der-die-das-genus-regeln/"
+            rel="noopener noreferrer"
+            target="_blank"
+>
+            Der die das article rules
+</a>,
         ],
-        "className": "Game",
+        "className": "game",
       },
       "ref": null,
       "rendered": Array [
@@ -149,6 +177,20 @@ ShallowWrapper {
             "type": [Function],
           },
           "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Der die das article rules",
+            "href": "http://www.passion4teq.com/articles/der-die-das-genus-regeln/",
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": "Der die das article rules",
+          "type": "a",
         },
       ],
       "type": "div",

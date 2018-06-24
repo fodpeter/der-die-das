@@ -22,10 +22,10 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          className="Word"
+          className="word"
 >
           <span
-                    className="WordArticle"
+                    className="word-article"
           >
                     ...
           </span>
@@ -34,7 +34,7 @@ ShallowWrapper {
         <ButtonGroup
           block={false}
           bsClass="btn-group"
-          className="Buttons"
+          className="buttons"
           justified={false}
           vertical={false}
 >
@@ -73,7 +73,7 @@ ShallowWrapper {
           </Button>
 </ButtonGroup>,
       ],
-      "className": "ShowWord",
+      "className": "show-word",
     },
     "ref": null,
     "rendered": Array [
@@ -84,14 +84,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="WordArticle"
+              className="word-article"
 >
               ...
 </span>,
             " ",
             undefined,
           ],
-          "className": "Word",
+          "className": "word",
         },
         "ref": null,
         "rendered": Array [
@@ -101,7 +101,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": "...",
-              "className": "WordArticle",
+              "className": "word-article",
             },
             "ref": null,
             "rendered": "...",
@@ -154,7 +154,7 @@ ShallowWrapper {
               das
 </Button>,
           ],
-          "className": "Buttons",
+          "className": "buttons",
           "justified": false,
           "vertical": false,
         },
@@ -228,10 +228,10 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="Word"
+            className="word"
 >
             <span
-                        className="WordArticle"
+                        className="word-article"
             >
                         ...
             </span>
@@ -240,7 +240,7 @@ ShallowWrapper {
           <ButtonGroup
             block={false}
             bsClass="btn-group"
-            className="Buttons"
+            className="buttons"
             justified={false}
             vertical={false}
 >
@@ -279,7 +279,7 @@ ShallowWrapper {
             </Button>
 </ButtonGroup>,
         ],
-        "className": "ShowWord",
+        "className": "show-word",
       },
       "ref": null,
       "rendered": Array [
@@ -290,14 +290,14 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <span
-                className="WordArticle"
+                className="word-article"
 >
                 ...
 </span>,
               " ",
               undefined,
             ],
-            "className": "Word",
+            "className": "word",
           },
           "ref": null,
           "rendered": Array [
@@ -307,7 +307,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "...",
-                "className": "WordArticle",
+                "className": "word-article",
               },
               "ref": null,
               "rendered": "...",
@@ -360,7 +360,7 @@ ShallowWrapper {
                 das
 </Button>,
             ],
-            "className": "Buttons",
+            "className": "buttons",
             "justified": false,
             "vertical": false,
           },
