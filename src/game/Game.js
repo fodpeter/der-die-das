@@ -34,7 +34,7 @@ const Game = ({ loadingState, startGame }) => (
 );
 
 Game.propTypes = {
-  loadingState: PropTypes.oneOf(Object.values(LOADING_STATE)).isRequired,
+  loadingState: PropTypes.oneOf(Object.values(LOADING_STATE)),
   startGame: PropTypes.func.isRequired
 };
 

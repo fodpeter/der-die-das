@@ -1,8 +1,8 @@
 import { GAME } from "../actionTypes";
-import { Map } from "immutable";
+import { fromJS } from "immutable";
 import { ANSWERS } from "./constants";
 
-const game = (state = Map(), action) => {
+const game = (state = fromJS({ frozen: false }), action) => {
   switch (action.type) {
     case GAME.START:
       return state

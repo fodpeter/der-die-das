@@ -37,7 +37,7 @@ class GameContainer extends PureComponent {
 }
 
 GameContainer.propTypes = {
-  loadingState: PropTypes.oneOf(Object.values(LOADING_STATE)).isRequired,
+  loadingState: PropTypes.oneOf(Object.values(LOADING_STATE)),
   startGame: PropTypes.func.isRequired,
   loadData: PropTypes.func.isRequired,
   guess: PropTypes.func.isRequired,
