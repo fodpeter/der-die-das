@@ -1,5 +1,5 @@
 import { GAME } from "../actionTypes";
-import { fromJS } from "immutable";
+import { fromJS, Map } from "immutable";
 import { ANSWERS } from "./constants";
 
 const game = (state = fromJS({ frozen: false }), action) => {
