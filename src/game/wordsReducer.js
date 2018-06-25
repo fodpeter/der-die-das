@@ -1,7 +1,7 @@
 import { WORDS, LOADING_STATE } from "../actionTypes";
 import { fromJS, Map } from "immutable";
 
-const words = (state = Map(), action) => {
+const wordsReducer = (state = Map(), action) => {
   switch (action.type) {
     case WORDS.LOAD_REQUEST:
       return state.set("loadingState", LOADING_STATE.LOADING);
@@ -16,4 +16,4 @@ const words = (state = Map(), action) => {
   }
 };
 
-export default words;
+export default wordsReducer;
