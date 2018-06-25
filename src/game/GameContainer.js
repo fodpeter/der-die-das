@@ -2,7 +2,7 @@ import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { loadData, startGame, guess } from "./actions";
-import { Map } from "immutable";
+import { List, Map } from "immutable";
 import Game from "./Game";
 import ShowWord from "./ShowWord";
 import { getWord } from "./gameSelector";
@@ -46,7 +46,7 @@ GameContainer.propTypes = {
   frozen: PropTypes.bool.isRequired,
   word: PropTypes.shape({
     article: PropTypes.string,
-    word: PropTypes.number
+    word: PropTypes.string
   })
 };
 
@@ -54,6 +54,7 @@ const mapStateToProps = state => ({
   started: state.getIn(["game", "started"], false),
   loadingState: state.getIn(["words", "loadingState"]),
   word: getWord(state).toJS(),
+  wordCount: state.getIn(["words", "data", "data"], List()).size,
   answers: state.getIn(["game", "answers"], Map()).toJS(),
   frozen: state.getIn(["game", "frozen"])
 });
@@ -64,7 +65,17 @@ const mapDispatchToProps = {
   guess
 };
 
+const mergeProps = (
+  { wordCount, ...restStateProps },
+  { startGame, ...restDispatchProps }
+) => ({
+  ...restStateProps,
+  ...restDispatchProps,
+  startGame: () => startGame(wordCount)
+});
+
 export default connect(
   mapStateToProps,
-  mapDispatchToProps
+  mapDispatchToProps,
+  mergeProps
 )(GameContainer);

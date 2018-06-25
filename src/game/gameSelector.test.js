@@ -9,11 +9,14 @@ describe("gameSelector", () => {
   test("returns the word for the index state", () => {
     const word1 = fromJS({ article: "der" });
     const state = fromJS({
-      game: { wordIndex: 1 },
+      game: {
+        wordIndex: 1,
+        permutation: [1, 0]
+      },
       words: {
         data: {
           version: 1,
-          data: [{}, word1]
+          data: [word1]
         }
       }
     });

@@ -1,5 +1,5 @@
 import { GAME } from "../actionTypes";
-import { fromJS, Map } from "immutable";
+import { fromJS, List, Map } from "immutable";
 import { ANSWERS } from "./constants";
 
 const game = (state = fromJS({ frozen: false }), action) => {
@@ -8,6 +8,7 @@ const game = (state = fromJS({ frozen: false }), action) => {
       return state
         .set("started", true)
         .set("wordIndex", 0)
+        .set("permutation", fromJS(action.permutation))
         .set("answers", Map());
     case GAME.STOP:
       return state.set("started", false);
@@ -21,7 +22,10 @@ const game = (state = fromJS({ frozen: false }), action) => {
       return state
         .set("answers", Map())
         .set("frozen", false)
-        .update("wordIndex", idx => idx + 1);
+        .update(
+          "wordIndex",
+          idx => idx + (1 % state.get("permutation", List()).size)
+        );
     default:
       return state;
   }

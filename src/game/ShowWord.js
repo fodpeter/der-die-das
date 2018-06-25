@@ -55,7 +55,7 @@ ShowWord.propTypes = {
   onSelect: PropTypes.func.isRequired,
   word: PropTypes.shape({
     article: PropTypes.string,
-    word: PropTypes.number
+    word: PropTypes.string
   })
 };
 

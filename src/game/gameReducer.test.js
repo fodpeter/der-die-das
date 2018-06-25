@@ -3,11 +3,20 @@ import { fromJS, Map } from "immutable";
 import { ANSWERS } from "./constants";
 import { startGame, guessSuccess, guessFailed, gotoNextWord } from "./actions";
 
+jest.mock("./shuffleArray", () => ({
+  shuffleArray: numbers => numbers.reverse()
+}));
+
 describe("gameReducer", () => {
   test("start", () => {
-    const result = gameReducer(Map(), startGame());
+    const result = gameReducer(Map(), startGame(3));
     expect(result).toEqualImmutable(
-      fromJS({ started: true, wordIndex: 0, answers: {} })
+      fromJS({
+        started: true,
+        wordIndex: 0,
+        permutation: [2, 1, 0],
+        answers: {}
+      })
     );
   });
 
@@ -24,9 +33,17 @@ describe("gameReducer", () => {
   });
 
   test("gotoNextWord", () => {
-    const result = gameReducer(fromJS({ wordIndex: 3 }), gotoNextWord());
+    const result = gameReducer(
+      fromJS({ wordIndex: 1, permutation: [2, 1, 0] }),
+      gotoNextWord()
+    );
     expect(result).toEqualImmutable(
-      fromJS({ wordIndex: 4, frozen: false, answers: {} })
+      fromJS({
+        wordIndex: 2,
+        frozen: false,
+        answers: {},
+        permutation: [2, 1, 0]
+      })
     );
   });
 });
