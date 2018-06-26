@@ -43,12 +43,8 @@ ShallowWrapper {
                     </Well>
           </CSSTransition>
 </TransitionGroup>,
-        <ButtonGroup
-          block={false}
-          bsClass="btn-group"
+        <div
           className="buttons"
-          justified={false}
-          vertical={false}
 >
           <Button
                     active={false}
@@ -83,7 +79,7 @@ ShallowWrapper {
           >
                     das
           </Button>
-</ButtonGroup>,
+</div>,
       ],
       "className": "show-word",
     },
@@ -178,10 +174,8 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "host",
         "props": Object {
-          "block": false,
-          "bsClass": "btn-group",
           "children": Array [
             <Button
               active={false}
@@ -218,8 +212,6 @@ ShallowWrapper {
 </Button>,
           ],
           "className": "buttons",
-          "justified": false,
-          "vertical": false,
         },
         "ref": null,
         "rendered": Array [
@@ -278,7 +270,7 @@ ShallowWrapper {
             "type": [Function],
           },
         ],
-        "type": [Function],
+        "type": "div",
       },
     ],
     "type": "div",
@@ -312,12 +304,8 @@ ShallowWrapper {
                         </Well>
             </CSSTransition>
 </TransitionGroup>,
-          <ButtonGroup
-            block={false}
-            bsClass="btn-group"
+          <div
             className="buttons"
-            justified={false}
-            vertical={false}
 >
             <Button
                         active={false}
@@ -352,7 +340,7 @@ ShallowWrapper {
             >
                         das
             </Button>
-</ButtonGroup>,
+</div>,
         ],
         "className": "show-word",
       },
@@ -447,10 +435,8 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "host",
           "props": Object {
-            "block": false,
-            "bsClass": "btn-group",
             "children": Array [
               <Button
                 active={false}
@@ -487,8 +473,6 @@ ShallowWrapper {
 </Button>,
             ],
             "className": "buttons",
-            "justified": false,
-            "vertical": false,
           },
           "ref": null,
           "rendered": Array [
@@ -547,7 +531,7 @@ ShallowWrapper {
               "type": [Function],
             },
           ],
-          "type": [Function],
+          "type": "div",
         },
       ],
       "type": "div",

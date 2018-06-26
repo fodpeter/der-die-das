@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import Button from "react-bootstrap/lib/Button";
 import Well from "react-bootstrap/lib/Well";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import ButtonGroup from "react-bootstrap/lib/ButtonGroup";
 import "./ShowWord.css";
 import { ANSWERS } from "./constants";
 import classnames from "classnames";
@@ -55,9 +54,9 @@ class ShowWord extends PureComponent {
             {this.renderWord()}
           </CSSTransition>
         </TransitionGroup>
-        <ButtonGroup className="buttons">
+        <div className="buttons">
           {articles.map(article => this.renderButton(article))}
-        </ButtonGroup>
+        </div>
       </div>
     );
   }
