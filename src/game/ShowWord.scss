@@ -14,4 +14,34 @@
   .buttons {
     margin: 0 auto;
   }
+
+  .word-cards {
+    overflow: hidden;
+    position: relative;
+
+    & > div {
+      margin: 1em;
+      width: calc(100% - 2em);
+    }
+  }
+
+  .word-card-enter {
+    transform: translateX(110%);
+  }
+
+  .word-card-enter-active {
+    transform: translateX(0);
+    transition: transform 1000ms ease;
+  }
+
+  .word-card-exit {
+    position: absolute;
+    top: 0;
+    transform: translateX(0);
+  }
+
+  .word-card-exit-active {
+    transform: translateX(-110%);
+    transition: transform 1000ms ease;
+  }
 }
