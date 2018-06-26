@@ -16,5 +16,5 @@ export const handleGuess = (action$, store) =>
 export const redirectToNextWord = action$ =>
   action$
     .ofType(GAME.GUESS_SUCCESS)
-    .delay(1000)
+    .delay(500)
     .map(() => gotoNextWord());
