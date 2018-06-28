@@ -1,9 +1,9 @@
 import { GAME } from "../actionTypes";
-import { Map } from "immutable";
+import { fromJS } from "immutable";
 
 const reset = state => state.set("lifes", 3).set("counter", 0);
 
-const statistics = (state = Map(), action) => {
+const statistics = (state = fromJS({ lifes: 0, counter: 0 }), action) => {
   switch (action.type) {
     case GAME.START:
       return reset(state);
