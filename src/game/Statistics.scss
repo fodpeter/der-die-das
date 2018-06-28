@@ -1,0 +1,20 @@
+.heart {
+  height: 1em;
+  margin-right: 0.25em;
+  width: 1em;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+
+  .counter {
+    align-items: center;
+    display: flex;
+
+    span {
+      margin-right: 1ch;
+    }
+  }
+}

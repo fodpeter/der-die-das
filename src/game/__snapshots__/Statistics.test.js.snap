@@ -1,0 +1,354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statistics renders without crashing 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Statistics
+    counter={5}
+    lifes={2}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div>
+          Lifes: 
+          <img
+                    alt="Life"
+                    className="heart"
+                    src="heart_filled.svg"
+          />
+          <img
+                    alt="Life"
+                    className="heart"
+                    src="heart_filled.svg"
+          />
+          <img
+                    alt="Empty"
+                    className="heart"
+                    src="heart_hollow.svg"
+          />
+</div>,
+        <div
+          className="counter"
+>
+          <span>
+                    Words:
+          </span>
+          <Label
+                    bsClass="label"
+                    bsStyle="success"
+          >
+                    5
+          </Label>
+</div>,
+      ],
+      "className": "statistics",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Lifes: ",
+            Array [
+              <img
+                alt="Life"
+                className="heart"
+                src="heart_filled.svg"
+/>,
+              <img
+                alt="Life"
+                className="heart"
+                src="heart_filled.svg"
+/>,
+              <img
+                alt="Empty"
+                className="heart"
+                src="heart_hollow.svg"
+/>,
+            ],
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lifes: ",
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Life",
+              "className": "heart",
+              "src": "heart_filled.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Life",
+              "className": "heart",
+              "src": "heart_filled.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "alt": "Empty",
+              "className": "heart",
+              "src": "heart_hollow.svg",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Words:
+</span>,
+            <Label
+              bsClass="label"
+              bsStyle="success"
+>
+              5
+</Label>,
+          ],
+          "className": "counter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Words:",
+            },
+            "ref": null,
+            "rendered": "Words:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "label",
+              "bsStyle": "success",
+              "children": 5,
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div>
+            Lifes: 
+            <img
+                        alt="Life"
+                        className="heart"
+                        src="heart_filled.svg"
+            />
+            <img
+                        alt="Life"
+                        className="heart"
+                        src="heart_filled.svg"
+            />
+            <img
+                        alt="Empty"
+                        className="heart"
+                        src="heart_hollow.svg"
+            />
+</div>,
+          <div
+            className="counter"
+>
+            <span>
+                        Words:
+            </span>
+            <Label
+                        bsClass="label"
+                        bsStyle="success"
+            >
+                        5
+            </Label>
+</div>,
+        ],
+        "className": "statistics",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Lifes: ",
+              Array [
+                <img
+                  alt="Life"
+                  className="heart"
+                  src="heart_filled.svg"
+/>,
+                <img
+                  alt="Life"
+                  className="heart"
+                  src="heart_filled.svg"
+/>,
+                <img
+                  alt="Empty"
+                  className="heart"
+                  src="heart_hollow.svg"
+/>,
+              ],
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Lifes: ",
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Life",
+                "className": "heart",
+                "src": "heart_filled.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Life",
+                "className": "heart",
+                "src": "heart_filled.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Empty",
+                "className": "heart",
+                "src": "heart_hollow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Words:
+</span>,
+              <Label
+                bsClass="label"
+                bsStyle="success"
+>
+                5
+</Label>,
+            ],
+            "className": "counter",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Words:",
+              },
+              "ref": null,
+              "rendered": "Words:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "label",
+                "bsStyle": "success",
+                "children": 5,
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,10 +1,10 @@
 import React from "react";
 import { shallow } from "enzyme";
-import ShowWord from "./ShowWord";
+import Statistics from "./Statistics";
 
-describe("ShowWord", () => {
+describe("Statistics", () => {
   it("renders without crashing", () => {
-    const component = shallow(<ShowWord word="Wort" answers={{}} />);
+    const component = shallow(<Statistics lifes={2} counter={5} />);
     expect(component).toMatchSnapshot();
   });
 });
