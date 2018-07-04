@@ -1,6 +1,7 @@
 import { GAME } from "../actionTypes";
 import { guessSuccess, guessFailed, gotoNextWord } from "./actions";
-import "rxjs";
+import { ofType } from "redux-observable";
+import { delay, map } from "rxjs/operators";
 import { getWord } from "./gameSelector";
 
 const getResult = (article, state) =>
@@ -8,13 +9,15 @@ const getResult = (article, state) =>
     ? guessSuccess(article)
     : guessFailed(article);
 
-export const handleGuess = (action$, store) =>
-  action$
-    .ofType(GAME.GUESS)
-    .map(({ article }) => getResult(article, store.getState()));
+export const handleGuess = (action$, state$) =>
+  action$.pipe(
+    ofType(GAME.GUESS),
+    map(({ article }) => getResult(article, state$.value))
+  );
 
 export const redirectToNextWord = action$ =>
-  action$
-    .ofType(GAME.GUESS_SUCCESS)
-    .delay(500)
-    .map(() => gotoNextWord());
+  action$.pipe(
+    ofType(GAME.GUESS_SUCCESS),
+    delay(500),
+    map(() => gotoNextWord())
+  );
