@@ -15,153 +15,257 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
-        <header
-          className="app-header"
+        <GitHubForkRibbon
+          href="https://github.com/fodpeter/der-die-das"
+          position="right"
+          target="_blank"
 >
-          <h1
-                    className="app-title"
-          >
-                    Welcome to Der Die Das
-          </h1>
-</header>,
+          Fork me on GitHub
+</GitHubForkRibbon>,
         <div
-          className="app-intro"
+          className="app"
 >
-          <Connect(GameContainer) />
+          <header
+                    className="app-header"
+          >
+                    <h1
+                              className="app-title"
+                    >
+                              Welcome to Der Die Das
+                    </h1>
+          </header>
+          <div
+                    className="app-intro"
+          >
+                    <Connect(GameContainer) />
+          </div>
 </div>,
       ],
-      "className": "app",
     },
     "ref": null,
     "rendered": Array [
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "function",
         "props": Object {
-          "children": <h1
-            className="app-title"
->
-            Welcome to Der Die Das
-</h1>,
-          "className": "app-header",
+          "children": "Fork me on GitHub",
+          "href": "https://github.com/fodpeter/der-die-das",
+          "position": "right",
+          "target": "_blank",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Welcome to Der Die Das",
-            "className": "app-title",
-          },
-          "ref": null,
-          "rendered": "Welcome to Der Die Das",
-          "type": "h1",
-        },
-        "type": "header",
+        "rendered": "Fork me on GitHub",
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <Connect(GameContainer) />,
-          "className": "app-intro",
+          "children": Array [
+            <header
+              className="app-header"
+>
+              <h1
+                            className="app-title"
+              >
+                            Welcome to Der Die Das
+              </h1>
+</header>,
+            <div
+              className="app-intro"
+>
+              <Connect(GameContainer) />
+</div>,
+          ],
+          "className": "app",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1
+                className="app-title"
+>
+                Welcome to Der Die Das
+</h1>,
+              "className": "app-header",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Welcome to Der Die Das",
+                "className": "app-title",
+              },
+              "ref": null,
+              "rendered": "Welcome to Der Die Das",
+              "type": "h1",
+            },
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Connect(GameContainer) />,
+              "className": "app-intro",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
         "type": "div",
       },
     ],
-    "type": "div",
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
-          <header
-            className="app-header"
+          <GitHubForkRibbon
+            href="https://github.com/fodpeter/der-die-das"
+            position="right"
+            target="_blank"
 >
-            <h1
-                        className="app-title"
-            >
-                        Welcome to Der Die Das
-            </h1>
-</header>,
+            Fork me on GitHub
+</GitHubForkRibbon>,
           <div
-            className="app-intro"
+            className="app"
 >
-            <Connect(GameContainer) />
+            <header
+                        className="app-header"
+            >
+                        <h1
+                                    className="app-title"
+                        >
+                                    Welcome to Der Die Das
+                        </h1>
+            </header>
+            <div
+                        className="app-intro"
+            >
+                        <Connect(GameContainer) />
+            </div>
 </div>,
         ],
-        "className": "app",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": <h1
-              className="app-title"
->
-              Welcome to Der Die Das
-</h1>,
-            "className": "app-header",
+            "children": "Fork me on GitHub",
+            "href": "https://github.com/fodpeter/der-die-das",
+            "position": "right",
+            "target": "_blank",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Welcome to Der Die Das",
-              "className": "app-title",
-            },
-            "ref": null,
-            "rendered": "Welcome to Der Die Das",
-            "type": "h1",
-          },
-          "type": "header",
+          "rendered": "Fork me on GitHub",
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <Connect(GameContainer) />,
-            "className": "app-intro",
+            "children": Array [
+              <header
+                className="app-header"
+>
+                <h1
+                                className="app-title"
+                >
+                                Welcome to Der Die Das
+                </h1>
+</header>,
+              <div
+                className="app-intro"
+>
+                <Connect(GameContainer) />
+</div>,
+            ],
+            "className": "app",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": [Function],
-          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h1
+                  className="app-title"
+>
+                  Welcome to Der Die Das
+</h1>,
+                "className": "app-header",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Welcome to Der Die Das",
+                  "className": "app-title",
+                },
+                "ref": null,
+                "rendered": "Welcome to Der Die Das",
+                "type": "h1",
+              },
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Connect(GameContainer) />,
+                "className": "app-intro",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
           "type": "div",
         },
       ],
-      "type": "div",
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {
