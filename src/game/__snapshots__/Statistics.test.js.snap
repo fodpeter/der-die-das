@@ -21,6 +21,19 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        <div
+          className="counter"
+>
+          <span>
+                    Words:
+          </span>
+          <Label
+                    bsClass="label"
+                    bsStyle="success"
+          >
+                    5
+          </Label>
+</div>,
         <div>
           Lifes: 
           <img
@@ -39,24 +52,58 @@ ShallowWrapper {
                     src="heart_hollow.svg"
           />
 </div>,
-        <div
-          className="counter"
->
-          <span>
-                    Words:
-          </span>
-          <Label
-                    bsClass="label"
-                    bsStyle="success"
-          >
-                    5
-          </Label>
-</div>,
       ],
       "className": "statistics",
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span>
+              Words:
+</span>,
+            <Label
+              bsClass="label"
+              bsStyle="success"
+>
+              5
+</Label>,
+          ],
+          "className": "counter",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Words:",
+            },
+            "ref": null,
+            "rendered": "Words:",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "label",
+              "bsStyle": "success",
+              "children": 5,
+            },
+            "ref": null,
+            "rendered": 5,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -128,53 +175,6 @@ ShallowWrapper {
         ],
         "type": "div",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <span>
-              Words:
-</span>,
-            <Label
-              bsClass="label"
-              bsStyle="success"
->
-              5
-</Label>,
-          ],
-          "className": "counter",
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Words:",
-            },
-            "ref": null,
-            "rendered": "Words:",
-            "type": "span",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "class",
-            "props": Object {
-              "bsClass": "label",
-              "bsStyle": "success",
-              "children": 5,
-            },
-            "ref": null,
-            "rendered": 5,
-            "type": [Function],
-          },
-        ],
-        "type": "div",
-      },
     ],
     "type": "div",
   },
@@ -185,6 +185,19 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <div
+            className="counter"
+>
+            <span>
+                        Words:
+            </span>
+            <Label
+                        bsClass="label"
+                        bsStyle="success"
+            >
+                        5
+            </Label>
+</div>,
           <div>
             Lifes: 
             <img
@@ -203,24 +216,58 @@ ShallowWrapper {
                         src="heart_hollow.svg"
             />
 </div>,
-          <div
-            className="counter"
->
-            <span>
-                        Words:
-            </span>
-            <Label
-                        bsClass="label"
-                        bsStyle="success"
-            >
-                        5
-            </Label>
-</div>,
         ],
         "className": "statistics",
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span>
+                Words:
+</span>,
+              <Label
+                bsClass="label"
+                bsStyle="success"
+>
+                5
+</Label>,
+            ],
+            "className": "counter",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Words:",
+              },
+              "ref": null,
+              "rendered": "Words:",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "label",
+                "bsStyle": "success",
+                "children": 5,
+              },
+              "ref": null,
+              "rendered": 5,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
         Object {
           "instance": null,
           "key": undefined,
@@ -288,53 +335,6 @@ ShallowWrapper {
               "ref": null,
               "rendered": null,
               "type": "img",
-            },
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <span>
-                Words:
-</span>,
-              <Label
-                bsClass="label"
-                bsStyle="success"
->
-                5
-</Label>,
-            ],
-            "className": "counter",
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Words:",
-              },
-              "ref": null,
-              "rendered": "Words:",
-              "type": "span",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "class",
-              "props": Object {
-                "bsClass": "label",
-                "bsStyle": "success",
-                "children": 5,
-              },
-              "ref": null,
-              "rendered": 5,
-              "type": [Function],
             },
           ],
           "type": "div",

@@ -37,8 +37,8 @@ class Statistics extends PureComponent {
 
   render = () => (
     <div className="statistics">
-      {this.renderHearts()}
       {this.renderWords()}
+      {this.renderHearts()}
     </div>
   );
 }
