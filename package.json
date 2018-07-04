@@ -29,6 +29,7 @@
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
+    "react-github-fork-ribbon": "^0.5.1",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "react-transition-group": "^2.4.0",
