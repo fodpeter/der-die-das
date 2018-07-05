@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { loadData, startGame, guess } from "./actions";
 import { List, Map } from "immutable";
 import Game from "./Game";
-import Statistics from "./Statistics";
+import Statistics from "./statistics/Statistics";
 import ShowWord from "./ShowWord";
 import { getWord } from "./gameSelector";
 import { LOADING_STATE } from "../actionTypes";

@@ -1,4 +1,4 @@
-import { GAME } from "../actionTypes";
+import { GAME } from "../../actionTypes";
 import { fromJS } from "immutable";
 
 const reset = state => state.set("lifes", 3).set("counter", 0);

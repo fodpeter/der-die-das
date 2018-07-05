@@ -1,6 +1,6 @@
 import statisticsReducer from "./statisticsReducer";
 import { fromJS, Map } from "immutable";
-import { startGame, guessSuccess, guessFailed } from "./actions";
+import { startGame, guessSuccess, guessFailed } from "../actions";
 
 describe("statisticsReducer", () => {
   test("start", () => {
