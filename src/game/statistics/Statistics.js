@@ -5,6 +5,7 @@ import "./Statistics.css";
 import range from "lodash/range";
 import filledHeart from "./heart_filled.svg";
 import hollowHeart from "./heart_hollow.svg";
+import { CSSTransition } from "react-transition-group";
 
 class Statistics extends PureComponent {
   renderHeart = (index, filled) => (
@@ -28,10 +29,12 @@ class Statistics extends PureComponent {
   renderWords = () => {
     const { counter } = this.props;
     return (
-      <div className="counter">
-        <span>Words:</span>
-        <Label bsStyle="success">{counter}</Label>
-      </div>
+      <CSSTransition in={counter === 0} timeout={1000} classNames="word-count">
+        <div className="counter">
+          <span>Words:</span>
+          <Label bsStyle="success">{counter}</Label>
+        </div>
+      </CSSTransition>
     );
   };
 

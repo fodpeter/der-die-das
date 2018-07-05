@@ -4,6 +4,8 @@
   width: 1em;
 }
 
+$danger: #d9534f;
+
 .statistics {
   display: flex;
   justify-content: space-between;
@@ -15,6 +17,34 @@
 
     span {
       margin-right: 1ch;
+    }
+  }
+
+  @keyframes text-color-animation {
+    25% {
+      color: $danger;
+    }
+    50% {
+      color: $danger;
+    }
+  }
+
+  @keyframes background-color-animation {
+    25% {
+      background-color: $danger;
+    }
+    50% {
+      background-color: $danger;
+    }
+  }
+
+  .word-count-enter-active {
+    animation-duration: 1000ms;
+    animation-name: text-color-animation;
+
+    .label {
+      animation-duration: 1000ms;
+      animation-name: background-color-animation;
     }
   }
 }
