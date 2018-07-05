@@ -4,7 +4,7 @@ import Statistics from "./Statistics";
 
 describe("Statistics", () => {
   it("renders without crashing", () => {
-    const component = shallow(<Statistics lifes={2} counter={5} />);
+    const component = shallow(<Statistics lives={2} counter={5} />);
     expect(component).toMatchSnapshot();
   });
 });

@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Statistics
     counter={5}
-    lifes={2}
+    lives={2}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -41,7 +41,7 @@ ShallowWrapper {
           </div>
 </CSSTransition>,
         <div>
-          Lifes: 
+          Lives: 
           <img
                     alt="Life"
                     className="heart"
@@ -141,7 +141,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Lifes: ",
+            "Lives: ",
             Array [
               <img
                 alt="Life"
@@ -163,7 +163,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": Array [
-          "Lifes: ",
+          "Lives: ",
           Object {
             "instance": null,
             "key": "0",
@@ -236,7 +236,7 @@ ShallowWrapper {
             </div>
 </CSSTransition>,
           <div>
-            Lifes: 
+            Lives: 
             <img
                         alt="Life"
                         className="heart"
@@ -336,7 +336,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "Lifes: ",
+              "Lives: ",
               Array [
                 <img
                   alt="Life"
@@ -358,7 +358,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": Array [
-            "Lifes: ",
+            "Lives: ",
             Object {
               "instance": null,
               "key": "0",

@@ -7,7 +7,7 @@ describe("statisticsReducer", () => {
     const result = statisticsReducer(Map(), startGame(3));
     expect(result).toEqualImmutable(
       fromJS({
-        lifes: 3,
+        lives: 3,
         counter: 0
       })
     );
@@ -15,25 +15,25 @@ describe("statisticsReducer", () => {
 
   test("guessFailed", () => {
     const result = statisticsReducer(
-      fromJS({ lifes: 3, counter: 2 }),
+      fromJS({ lives: 3, counter: 2 }),
       guessFailed("der")
     );
-    expect(result).toEqualImmutable(fromJS({ lifes: 2, counter: 2 }));
+    expect(result).toEqualImmutable(fromJS({ lives: 2, counter: 2 }));
   });
 
   test("guessFailed underflow", () => {
     const result = statisticsReducer(
-      fromJS({ lifes: 1, counter: 2 }),
+      fromJS({ lives: 1, counter: 2 }),
       guessFailed("der")
     );
-    expect(result).toEqualImmutable(fromJS({ lifes: 3, counter: 0 }));
+    expect(result).toEqualImmutable(fromJS({ lives: 3, counter: 0 }));
   });
 
   test("guessSuccess", () => {
     const result = statisticsReducer(
-      fromJS({ lifes: 3, counter: 5 }),
+      fromJS({ lives: 3, counter: 5 }),
       guessSuccess("der")
     );
-    expect(result).toEqualImmutable(fromJS({ lifes: 3, counter: 6 }));
+    expect(result).toEqualImmutable(fromJS({ lives: 3, counter: 6 }));
   });
 });

@@ -18,10 +18,10 @@ class Statistics extends PureComponent {
   );
 
   renderHearts = () => {
-    const { lifes } = this.props;
+    const { lives } = this.props;
     return (
       <div>
-        Lifes: {range(3).map(index => this.renderHeart(index, index < lifes))}
+        Lives: {range(3).map(index => this.renderHeart(index, index < lives))}
       </div>
     );
   };
@@ -47,7 +47,7 @@ class Statistics extends PureComponent {
 }
 
 Statistics.propTypes = {
-  lifes: PropTypes.number.isRequired,
+  lives: PropTypes.number.isRequired,
   counter: PropTypes.number.isRequired
 };
 
